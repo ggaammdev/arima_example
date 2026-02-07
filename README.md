@@ -9,6 +9,12 @@ This project serves as a comprehensive practical example of time series forecast
 - **Visualization**: Generates and saves plots comparing actual data vs. forecasts.
 - **Evaluation**: Calculates RMSE to measure model performance.
 
+## Output
+
+The script saves a high-quality visualization of the forecast to `arima_forecast.png`, showing the training data, actual test data, forecast line, and confidence intervals.
+
+![ARIMA Forecast](./arima_forecast.png)
+
 ## Installation
 
 1.  **Clone the repository:**
@@ -36,8 +42,4 @@ Run the main script to generate the synthetic data, train the model, and save th
 python pdarima_ex.py
 ```
 
-## Output
 
-The script saves a high-quality visualization of the forecast to `arima_forecast.png`, showing the training data, actual test data, forecast line, and confidence intervals.
-
-![ARIMA Forecast](./arima_forecast.png)
